@@ -7,6 +7,7 @@ global bd_enaho "E:\10_BD\ENAHO\Bases anuales"
 forv i = 2014/2019 {
 display "`i'"
 u "$bd_enaho\enaho01a-`i'-300", clear
+quietly merge m:1 conglome vivienda hogar using "$bd_enaho\sumaria-`i'.dta"
 quietly compress
 tempfile input_`i'
 save `input_`i'' 	 
