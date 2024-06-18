@@ -5,7 +5,8 @@ Para fines prácticos, véamos un ejemplo contabilizando la población del país
 
 1. Obteniendo resultados a nivel de personas
 
-  1.1. En caso de usarse una base de datos a nivel de pesonas (por ejemplo, el módulo 300 Educación de la ENAHO con un total de 108,354 observaciones como muestra), y en caso de querer presentar resultados a nivel de personas, solo debe usarse el factor de expansión que ya viene contenida en la base de datos.
+
+1.1. En caso de usarse una base de datos a nivel de pesonas (por ejemplo, el módulo 300 Educación de la ENAHO con un total de 108,354 observaciones como muestra), y en caso de querer presentar resultados a nivel de personas, solo debe usarse el factor de expansión que ya viene contenida en la base de datos.
  
  ``` js
  use "$ruta\1. Bases de datos\1.1. Externas (INEI)\1.1.1. ENAHO\module 03\2023\2023.dta"
@@ -17,8 +18,6 @@ Para fines prácticos, véamos un ejemplo contabilizando la población del país
  |               2023 |   33108245.3  |  100.00 |   100.00 |
  |--------------------|---------------|---------|----------|
  |              Total |   33108245.3  |  100.00 |   100.00 |
-
-3. 
 
 1.2. En caso de usarse una base de datos a nivel de hogares (por ejemplo, el módulo 340 Sumaria de la ENAHO con un total de 33,886 observaciones como muetra), y en caso de querer presentar resultados a nivel de personas, debe usarse el factor de expansión pero multiplicándose por el número de miembros del hogar.
 
@@ -34,5 +33,34 @@ tab a_o [iw=factor07*mieperho]
 |              Total |   34107047.6  |  100.00 |          |
 
 
-    
+ 2. Obteniendo resultados a nivel de hogares
+
+
+2.1. En caso de usarse una base de datos a nivel de pesonas (por ejemplo, el módulo 300 Educación de la ENAHO con un total de 108,354 observaciones como muestra), y en caso de querer presentar resultados a nivel de hogares, debe usarse el factor de expansión que ya viene contenida en la base de datos.
+ 
+ ``` js
+use "$ruta\1. Bases de datos\1.1. Externas (INEI)\1.1.1. ENAHO\module 03\2023\2023.dta"
+merge m:1 conglome vivienda hogar using "$ruta\1. Bases de datos\1.1. Externas (INEI)\1.1.1. ENAHO\module 34\2023\2023.dta"
+
+tab a_o [iw=factor07/mieperho]
+ ```     
+| año de la encuesta |     Freq.     | Percent |   Cum.   |
+|--------------------|---------------|---------|----------|
+|               2023 |   10013826.3  |  100.00 |   100.00 |
+|--------------------|---------------|---------|----------|
+|              Total |   10013826.3  |  100.00 |          |
+
+2.2. En caso de usarse una base de datos a nivel de hogares (por ejemplo, el módulo 340 Sumaria de la ENAHO con un total de 33,886 observaciones como muetra), y en caso de querer presentar resultados a nivel de hogares, solo debe usarse el factor de expansión ya existente en la base de datos.
+
+``` js
+use "$ruta\1. Bases de datos\1.1. Externas (INEI)\1.1.1. ENAHO\module 34\2023\2023.dta"
+tab a_o [iw=factor07]
+```    
+
+| año de la encuesta |     Freq.     | Percent |   Cum.   |
+|--------------------|---------------|---------|----------|
+|               2023 |   10196775.4  |  100.00 |   100.00 |
+|--------------------|---------------|---------|----------|
+|              Total |   10196775.4  |  100.00 |          |
+
     
