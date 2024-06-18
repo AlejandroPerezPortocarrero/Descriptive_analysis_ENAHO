@@ -16,4 +16,19 @@ tab a_o [iw=factor07]
 |--------------------|---------------|---------|----------|
 |              Total |   33108245.3  |  100.00 |   100.00 |
 
+ 2. En caso de usarse una base de datos a nivel de hogares (por ejemplo, el módulo 340 Sumaria de la ENAHO), y en caso de querer presentar resultados a nivel de personas, debe usarse el factor de expansión pero multiplicándose por el número de miembros del hogar.
+
+ ``` js
+use "$ruta\1. Bases de datos\1.1. Externas (INEI)\1.1.1. ENAHO\module 34\2023\2023.dta"
+tab a_o [iw=factor07*mieperho]
+```    
+
+| año de la encuesta |     Freq.     | Percent |   Cum.   |
+|--------------------|---------------|---------|----------|
+|               2023 |   34107047.6  |  100.00 |   100.00 |
+|--------------------|---------------|---------|----------|
+|              Total |   34107047.6  |  100.00 |          |
+
+
+    
     
