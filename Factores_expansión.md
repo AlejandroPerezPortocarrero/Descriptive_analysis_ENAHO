@@ -4,7 +4,8 @@ La aplicación de los factores de expansión dependen de qué tipo de bases de d
 Para fines prácticos, véamos un ejemplo contabilizando la población del país a través de distintos módulos de la ENAHO, algunos a nivel e personas y otros a nivel de hogares.   
 
 1. Obteniendo resultados a nivel de personas
- 1.1. En caso de usarse una base de datos a nivel de pesonas (por ejemplo, el módulo 300 Educación de la ENAHO con un total de 108,354 observaciones como muestra), y en caso de querer presentar resultados a nivel de personas, solo debe usarse el factor de expansión que ya viene contenida en la base de datos.
+
+  1.1. En caso de usarse una base de datos a nivel de pesonas (por ejemplo, el módulo 300 Educación de la ENAHO con un total de 108,354 observaciones como muestra), y en caso de querer presentar resultados a nivel de personas, solo debe usarse el factor de expansión que ya viene contenida en la base de datos.
  
  ``` js
  use "$ruta\1. Bases de datos\1.1. Externas (INEI)\1.1.1. ENAHO\module 03\2023\2023.dta"
