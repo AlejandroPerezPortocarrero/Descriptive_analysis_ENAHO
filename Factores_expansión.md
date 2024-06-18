@@ -1,4 +1,4 @@
-#### Guía para la Aplicación de Factores de Expansión en la ENAHO
+## Guía para la Aplicación de Factores de Expansión en la ENAHO
 
 La correcta aplicación de los factores de expansión en la ENAHO depende del tipo de base de datos utilizada (a nivel de personas o a nivel de hogares) y del tipo de resultados que se desean presentar (a nivel de personas o a nivel de hogares).
 
