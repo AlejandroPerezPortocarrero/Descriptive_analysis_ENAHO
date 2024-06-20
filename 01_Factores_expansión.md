@@ -69,7 +69,7 @@ graph TD;
     st[Base de datos, BD] --> split1[Identifiacando el tipo de información en la BD];
     split1 --> split2a[A nivel de personas];
     split1 --> split2b[A nivel de hogares];
-    split2a --> split3a[Objetivo: Presentar informacióna nivel de personas];
+    split2a --> split3a[Objetivo: Presentar información<br>a nivel de personas];
     split2a --> split3b[Objetivo: Presentar informacióna nivel de hogares];
     split2b --> split5a[Objetivo: Presentar informacióna nivel de personas];
     split2b --> split5b[Objetivo: Presentar informacióna nivel de hogares];
