@@ -74,7 +74,7 @@ graph TD;
     split2b --> split5a[Objetivo: Presentar información<br>a nivel de personas];
     split2b --> split5b[Objetivo: Presentar información<br>a nivel de hogares];
     split3a --> split4a[Factor de expansión original];
-    split3b --> split4b[Factor de expansión original x número de miembros del hogar];
-    split5a --> split6a[Factor de expansión original / número de miembros del hogar];
+    split3b --> split4b[Factor de expansión original<br>x número de miembros del hogar];
+    split5a --> split6a[Factor de expansión original<br>/ número de miembros del hogar];
     split5b --> split6b[Factor de expansión original];
 ```
