@@ -63,6 +63,7 @@ tab a_o [iw=factor07]
 |--------------------|---------------|---------|----------|
 |              Total |   10196775.4  |  100.00 |          |
 
+Lo anterior puede ser resumido a partir del siguiente diagrama:
 
 ```mermaid
 graph TD;
