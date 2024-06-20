@@ -77,10 +77,4 @@ graph TD;
     split3b --> split4b[Fin 1A2];
     split5a --> split6a[Fin 1B1];
     split5b --> split6b[Fin 1B2];
-    split6a --> e;
-    split6b --> e;
-
 ```
-
- split4a --> e[Fin];
-    split4b --> e;
