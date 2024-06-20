@@ -66,7 +66,7 @@ tab a_o [iw=factor07]
 
 ```mermaid
 graph TD;
-    st[Inicio] --> split1[Primera División];
+    st[Base de datos] --> split1[Primera División];
     split1 --> split2a[División 1A];
     split1 --> split2b[División 1B];
     split2a --> split3a[Subdivisión 1A1];
