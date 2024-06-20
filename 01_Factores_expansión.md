@@ -14,9 +14,7 @@ La correcta aplicación de los factores de expansión en la ENAHO depende del ti
  ```    
  
  | año de la encuesta |     Freq.     | Percent |   Cum.   |
- |--------------------|---------------|---------|----------|
  |               2023 |   33108245.3  |  100.00 |   100.00 |
- |--------------------|---------------|---------|----------|
  |              Total |   33108245.3  |  100.00 |   100.00 |
 
 1.2. Si se utiliza una base de datos a nivel de hogares (por ejemplo, el módulo 340 Sumaria de la ENAHO con 33,886 observaciones como muestra) y se desean presentar resultados a nivel de personas, se debe ajustar el factor de expansión (factor07) multiplicándolo por el número de miembros del hogar (mieperho).
