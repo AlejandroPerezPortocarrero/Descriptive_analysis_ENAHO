@@ -1,7 +1,7 @@
 ## Guía para la Aplicación de Factores de Expansión en la ENAHO
 Por: Alejandro Pérez Portocarrero
 
-```flow
+```js
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
