@@ -73,8 +73,8 @@ graph TD;
     split2a --> split3b[Objetivo: Presentar informacióna nivel de hogares];
     split2b --> split5a[Objetivo: Presentar informacióna nivel de personas];
     split2b --> split5b[Objetivo: Presentar informacióna nivel de hogares];
-    split3a --> split4a[Fin 1A1];
-    split3b --> split4b[Fin 1A2];
-    split5a --> split6a[Fin 1B1];
-    split5b --> split6b[Fin 1B2];
+    split3a --> split4a[Factor de expansión original];
+    split3b --> split4b[Factor de expansión original x número de miembros del hogar];
+    split5a --> split6a[Factor de expansión original / número de miembros del hogar];
+    split5b --> split6b[Factor de expansión original];
 ```
