@@ -74,33 +74,21 @@ tab a_o [iw=factor07]
 
 
 ```mermaid
-st=>start: Inicio
-split1=>operation: Primera División
-split2a=>operation: División 1A
-split2b=>operation: División 1B
-split3a=>operation: Subdivisión 1A1
-split3b=>operation: Subdivisión 1A2
-split4a=>end: Fin 1A1
-split4b=>end: Fin 1A2
-split5a=>operation: Subdivisión 1B1
-split5b=>operation: Subdivisión 1B2
-split6a=>end: Fin 1B1
-split6b=>end: Fin 1B2
-e=>end: Fin
+graph TD;
+    st[Inicio] --> split1[Primera División];
+    split1 --> split2a[División 1A];
+    split1 --> split2b[División 1B];
+    split2a --> split3a[Subdivisión 1A1];
+    split2a --> split3b[Subdivisión 1A2];
+    split2b --> split5a[Subdivisión 1B1];
+    split2b --> split5b[Subdivisión 1B2];
+    split3a --> split4a[Fin 1A1];
+    split3b --> split4b[Fin 1A2];
+    split5a --> split6a[Fin 1B1];
+    split5b --> split6b[Fin 1B2];
+    split4a --> e[Fin];
+    split4b --> e;
+    split6a --> e;
+    split6b --> e;
 
-st->split1
-split1->split2a
-split1->split2b
-split2a->split3a
-split2a->split3b
-split2b->split5a
-split2b->split5b
-split3a->split4a
-split3b->split4b
-split5a->split6a
-split5b->split6b
-split4a->e
-split4b->e
-split6a->e
-split6b->e
 ```    
