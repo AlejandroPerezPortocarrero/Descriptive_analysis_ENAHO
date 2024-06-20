@@ -1,16 +1,7 @@
 ## Guía para la Aplicación de Factores de Expansión en la ENAHO
 Por: Alejandro Pérez Portocarrero
 
-```js
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
 
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
 
 ```mermaid
 graph TD;
@@ -82,7 +73,7 @@ tab a_o [iw=factor07]
 |              Total |   10196775.4  |  100.00 |          |
 
 
-```flow
+```mermaid
 st=>start: Inicio
 split1=>operation: Primera División
 split2a=>operation: División 1A
