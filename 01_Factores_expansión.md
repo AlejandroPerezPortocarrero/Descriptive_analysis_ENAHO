@@ -2,15 +2,6 @@
 Por: Alejandro Pérez Portocarrero
 
 
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
 La correcta aplicación de los factores de expansión en la ENAHO depende del tipo de base de datos utilizada (a nivel de personas o a nivel de hogares) y del tipo de resultados que se desean presentar (a nivel de personas o a nivel de hogares).
 
 1. Resultados a Nivel de Personas
