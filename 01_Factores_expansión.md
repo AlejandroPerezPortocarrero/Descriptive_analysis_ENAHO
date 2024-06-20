@@ -1,6 +1,17 @@
 ## Guía para la Aplicación de Factores de Expansión en la ENAHO
 Por: Alejandro Pérez Portocarrero
 
+```flow
+st=>start: Start
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
 La correcta aplicación de los factores de expansión en la ENAHO depende del tipo de base de datos utilizada (a nivel de personas o a nivel de hogares) y del tipo de resultados que se desean presentar (a nivel de personas o a nivel de hogares).
 
 1. Resultados a Nivel de Personas
