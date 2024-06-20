@@ -66,7 +66,7 @@ tab a_o [iw=factor07]
 
 ```mermaid
 graph TD;
-    st[Base de datos (BD)] --> split1[Identifiacando el tipo de información en la BD];
+    st[Base de datos BD] --> split1[Identifiacando el tipo de información en la BD];
     split1 --> split2a[División 1A];
     split1 --> split2b[División 1B];
     split2a --> split3a[Subdivisión 1A1];
