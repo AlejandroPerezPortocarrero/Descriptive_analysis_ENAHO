@@ -79,3 +79,5 @@ graph TD;
     split5a --> split6a[Factor de expansión original<br>/ número de miembros del hogar];
     split5b --> split6b[Factor de expansión original];
 ```
+
+* Notas:
