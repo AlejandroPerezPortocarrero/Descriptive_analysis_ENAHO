@@ -78,4 +78,4 @@ graph TD;
     split5b --> split6b[Original expansion factor];
 ```
 
-* Note: I thank Antony Velasquez Perez for his valuable comments.
+* Note: 1. I thank Antony Velasquez Perez for his valuable comments. 2. The recommended approach for handling survey data in Stata is to specify the sample design using the 'svyset' command. However, for educational purposes in this instance, I have directly applied weights to the 'tabulate' command.  
