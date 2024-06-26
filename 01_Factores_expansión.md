@@ -1,4 +1,4 @@
-## Guía para la Aplicación de Factores de Expansión en la ENAHO
+## Guía para la Aplicación de Factores de Expansión en la ENAHO usando Stata
 Por: Alejandro Pérez Portocarrero
 
 
