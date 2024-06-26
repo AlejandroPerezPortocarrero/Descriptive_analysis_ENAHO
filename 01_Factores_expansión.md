@@ -78,4 +78,4 @@ graph TD;
     split5b --> split6b[Original expansion factor];
 ```
 
-* Note: I thank you Antony Velasquez Perez for his valuable comments.
+* Note: I thank Antony Velasquez Perez for his valuable comments.
